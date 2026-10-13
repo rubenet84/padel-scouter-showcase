@@ -1,0 +1,10 @@
+Copyright (c) 2026 Rubén Rebollo Rua. All rights reserved.
+
+This source code is published solely for viewing and evaluation purposes
+(for example, by recruiters and academic reviewers).
+
+No permission is granted to copy, modify, distribute, sublicense, or use
+this software or any part of it, in whole or in part, for any purpose,
+without the prior written permission of the copyright holder.
+
+Contact: ruben829@msn.com
