@@ -29,7 +29,7 @@
 
 - 📊 [Presentación del TFM (Slides)](docs/Padel_Scouter_Proyecto_TFM_Desarrollo_Con_IA.pptx)
 - 🎥 [Vídeo demostración](https://youtu.be/uglVCCTKinU)
-- 🌐 [Demo en producción](https://padel-scouter-production.up.railway.app) <!-- ACTUALIZAR esta URL al migrar de hosting -->
+- 🌐 [Demo en producción](https://padel-scouter.onrender.com/)
 - 👤 **Usuario demo (rol jugador):** `demo_jugador@padel-scouter.com` / `DemoJugador2026!136f`
 - ⚠️ Los emails de la demo se redirigen a una cuenta personal (sin dominio propio verificado para el envío)
 
