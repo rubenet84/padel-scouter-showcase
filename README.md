@@ -29,7 +29,7 @@
 
 - 📊 [Presentación del TFM (Slides)](docs/Padel_Scouter_Proyecto_TFM_Desarrollo_Con_IA.pptx)
 - 🎥 [Vídeo demostración](https://youtu.be/uglVCCTKinU)
-- 🌐 [Demo en producción](https://padel-scouter.onrender.com/)
+- 🌐 [Demo en producción](https://padel-scouter.onrender.com/) La primera carga puede tardar hasta un minuto (plan gratuito)
 - 👤 **Usuario demo (rol jugador):** `demo_jugador@padel-scouter.com` / `DemoJugador2026!136f`
 - ⚠️ Los emails de la demo se redirigen a una cuenta personal (sin dominio propio verificado para el envío)
 
@@ -97,6 +97,16 @@ Además: **bloqueo de parejas** (el compañero se fija para todo el torneo), **a
 - Evolución temporal, comparador, historial H2H, Top 10 por 10 métricas, récords y resumen global
 - Filtros por categoría, temporada, tipo de competición y rango de fechas
 - **Alcance personal**: todas las estadísticas se calculan solo sobre los jugadores del propio usuario, para todos los roles
+
+### 🤖 Agente de IA con herramientas
+
+Asistente conversacional con Gemini que responde sobre los jugadores de la cuenta mediante *tool calling*:
+
+- **Un único agente con dos contextos:** «Mis jugadores» en el dashboard y el jugador seleccionado en su ficha.
+- **Herramientas de solo lectura** (perfil y estadísticas, historial de evaluaciones, partidos, comparación y lista de jugadores), que reutilizan los servicios existentes.
+- **Permisos aplicados en el servidor:** solo accede a los jugadores autorizados de la cuenta.
+- **Transparencia:** muestra las fuentes consultadas y nunca expone identificadores internos.
+- **Tests con el modelo simulado**, sin depender de la API.
 
 ### 🤖 Inteligencia Artificial
 
@@ -223,7 +233,7 @@ El proyecto completo (API, servicios, infraestructura, plantillas, migraciones y
 
 ## 🧪 Testing
 
-El proyecto completo suma **406 tests automatizados**: 118 unitarios y 288 de integración.
+El proyecto completo suma **494 tests automatizados**: 172 unitarios y 322 de integración.
 
 Áreas cubiertas: Power Level y reglas de puntuación, validación de contraseñas y seguridad, análisis de IA, política RBAC y permisos, ownership y scopes, estadísticas por propietario, panel de administración y suspensión de cuentas, PDFs, chatbot y notificaciones.
 
@@ -271,7 +281,7 @@ En este repositorio se incluyen los tests unitarios de la muestra de código.
 - **Autorización seria**: RBAC fail-closed, permisos granulares y ownership aplicado en el backend, con tests de seguridad
 - **IA aplicada**: análisis con Gemini, RAG sobre documentación oficial, caché y degradación controlada
 - **Seguridad**: buenas prácticas OWASP, autenticación JWT, rate limiting y auditoría de acciones de administración
-- **Calidad**: 406 tests automatizados y migraciones versionadas
+- **Calidad**: 494 tests automatizados y migraciones versionadas
 - **Producto completo**: backend, interfaz, generación de PDF, despliegue en la nube con PostgreSQL y Redis gestionados
 
 ---
